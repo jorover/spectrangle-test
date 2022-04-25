@@ -373,8 +373,9 @@ li {
   margin-top: 20px;
 }
 
-.workwithUsBtn a {
-  text-decoration: none;
+.workwithUsBtn button {
+  border: none;
+  background: none;
   color: #2e5399;
 }
 

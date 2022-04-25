@@ -27,7 +27,7 @@ const Footer = () => {
                       <h4> Program </h4>
                       <ul>
                         <li> Join Us </li>
-                        <li> Hire Talents <a href="#" className="new"> new </a></li>
+                        <li> Hire Talents <small className="new"> new </small></li>
                         <li> Privacy Policy </li>
                       </ul>
                     </article>

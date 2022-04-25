@@ -1,6 +1,5 @@
 import React from 'react'
 import Arrow from '../src/arrow.png'
-import Dots from '../src/dottss.png'
 import Clients from './Clients'
 import WhyWork from './WhyWork'
 
@@ -16,7 +15,7 @@ const WorkingWithUs = () => {
                         <h6> Book an appointment </h6>
                         <p> We schedule a meeting session with our client to discuss extensively about their projects </p>
                         <div className="workwithUsBtn"> 
-                            <a href="#"> Learn more </a>
+                            <button> Learn more </button>
                             <img src={Arrow} alt="learn-Img" />
                         </div>
                 </figcaption>
@@ -27,7 +26,7 @@ const WorkingWithUs = () => {
                         <h6> Share idea and brief </h6>
                         <p> We collate all the necessary information about your product to generate a project summary </p>
                         <div className="workwithUsBtn"> 
-                            <a href="#"> Learn more </a>
+                            <button> Learn more </button>
                             <img src={Arrow} alt="learn-Img" />
                         </div>
                 </figcaption>
@@ -38,7 +37,7 @@ const WorkingWithUs = () => {
                         <h6> Handled by experts </h6>
                         <p> You don't need to worry, we have a team of expert who build your project from ground up </p>
                         <div className="workwithUsBtn"> 
-                            <a href="#"> Learn more </a>
+                            <button> Learn more </button>
                             <img src={Arrow} alt="learn-Img" />
                         </div>
                 </figcaption>
@@ -49,7 +48,7 @@ const WorkingWithUs = () => {
                         <h6> Ship Product </h6>
                         <p> Now we release your project because it is ready to launch. Let's make it happen, like we always do </p>
                         <div className="workwithUsBtn"> 
-                            <a href="#"> Learn more </a>
+                            <button> Learn more </button>
                             <img src={Arrow} alt="learn-Img" />
                         </div>
                 </figcaption>
